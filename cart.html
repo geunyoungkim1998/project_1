@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+<body>
+    <a href="cart.html" id="Btn">Top</a>
+
+    <header>
+        <div id="inputID">
+            <input type="text" placeholder="ID">
+            <input type="password" placeholder="password">
+            <input type="button" value="Log in">
+        </div>
+        <div id="logo">
+            <a href="index.html" target="_blank"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+        </nav>
+        <input type="text" placeholder="search">
+        <div class="headericon">
+            <img src="img/1(11).png" alt="heart">
+            <img src="img/1(12).png" alt="cart">
+        </div>
+        <div>
+            <ul class="menu">
+                <li>
+                  <a href="#">MENU</a>
+                  <ul class="submenu">
+                    <li><a href="indexsub.html" target="_blank">NEW</a></li>
+                    <li><a href="indexsub.html" target="_blank">INDOOR</a></li>
+                    <li><a href="indexsub.html" target="_blank">OUTDOOR</a></li>
+                    <li><a href="indexsub.html" target="_blank">POTS</a></li>
+                    <li><a href="indexsub.html" target="_blank">ECT</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    </header>
+
+    <hr class="hrgreen">
+    <section id="cart1">
+        <div id="cart1div1">
+            <p class="cart1T">Cart</p>
+            <p>Log in and use</p>
+        </div>
+        <div class="cart1div2">
+            <p>CART > ORDER CHECK > ORDER CHANGE</p>
+        </div>
+    </section>
+
+    <section id="cart2">
+
+        <hr class="hrblack">
+        <table class="cart2table">
+            <tr>
+                <th>PRODUCTS</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>DELIVERY FEE </th>
+                <th>CHOOSE</th>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        <input type="checkbox" class="productcheck" checked name="product">
+                        <img src="img/1(25).jpg" alt="">
+                        <p class="cart2p">Scindapsus Pictus Ailvery Ann</p>
+                    </div>
+                </th>
+                <td>13,000</td>
+                <td>1</td>
+                <td>free</td>
+                <td>
+                    <input type="button" value="Order">
+                    <input type="button" value="Like">
+                    <input type="button" value="Delete">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        <input type="checkbox" class="productcheck" checked name="product">
+                        <img src="img/1(26).jpg" alt="">
+                        <p class="cart2p">Lemon Lime Geko</p>
+                    </div>
+                </th>
+                <td>17,000</td>
+                <td>1</td>
+                <td>free</td>
+                <td>
+                    <input type="button" value="Order">
+                    <input type="button" value="Like">
+                    <input type="button" value="Delete">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <div>
+                        <input type="checkbox" class="productcheck" checked name="product">
+                        <img src="img/1(13).jpg" alt="">
+                        <p class="cart2p">Philodendron Silver Metal</p>
+                    </div>
+                </th>
+                <td>13,500</td>
+                <td>1</td>
+                <td>free</td>
+                <td>
+                    <input type="button" value="Order">
+                    <input type="button" value="Like">
+                    <input type="button" value="Delete">
+                </td>
+            </tr>
+        </table>
+        <hr class="hrblack">
+    </section>
+
+    <section id="cart3">
+        <div>
+            <p class="order1">Total purchase amount</p>
+            <p class="order2">43,500</p>
+        </div>
+        <div>
+            <p class="order1">Delivery Fee</p>
+            <p class="order2">Free</p>
+        </div>
+        <div>
+            <p class="order1">Amount to pay</p>
+            <p class="order2">43,500</p>
+        </div>
+    </section>
+
+    <section id="cart4">
+        <p>
+            <span>DELIVERY GUIDE</span>
+            <table class="carttable">
+                <tr>
+                    <th>DELIVERY</th>
+                    <td>Parcel</td>
+                </tr>
+                <tr>
+                    <th>DELIVERY AREA</th>
+                    <td>Nationwide</td>
+                </tr>
+                <tr>
+                    <th>DELIVERY FEE</th>
+                    <td>3,500</td>
+                </tr>
+                <tr>
+                    <th>DELIVERY PERIOD</th>
+                    <td>1DAY~7DAYS</td>
+                </tr>
+                <tr>
+                    <th>DELIVERY<br> INFORMATION</th>
+                    <td>If the weather is below minus 3 degrees (-3), shipment may be delayed due to the possibility of freezing of plants.<br>
+                        You may have to pay extra for mountainous or island areas.<br>
+                        The product you ordered will be shipped after payment is confirmed. However, depending on the product type, product delivery may be slightly delayed.
+                    </td>
+                </tr>
+            </table>
+    </section>
+
+    <section id="cart5">
+        <div class="cart5button">
+            <input type="button" value="Delete selection">
+            <input type="button" value="Delete out of stock products">
+            <input type="button" value="Select all products" name="product">
+            <input type="button" value="Order selected products">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footerbox1">
+                <span class="subT">
+                    Contact Info
+                </span>
+                <br><br><br>
+                <p>
+                    <b>Adress</b><br>
+                    Korea, Siheung-si, Jeong-wang-dong<br>
+                </p>
+                <br><br>
+                <p>
+                    <b>Contact-Us</b><br>
+                    010-1234-5678<br>
+                    010-5678-1234
+                </p>
+                <br><br>
+                <p>
+                    <b>Email-us</b><br>
+                    1234kkk@gmail.com
+                </p>
+            </div>
+            <div class="footerbox2">
+                <img src="img/logo.png" alt="logo">
+                <br><br>
+                <p>
+                    We works Everyday<br><br><br>
+
+                    <b>Mon - Fir</b><br>
+                    9AM - 6PM<br><br>
+                    <b>Sat</b><br>
+                    9AM - 5PM<br><br>
+                    <b>Sun</b><br>
+                    9AM - 4PM<br>
+                </p>
+            </div>
+            <div class="footerbox3">
+                <p>
+                    <span class="subT">
+                        Instagram
+                    </span>
+                    <br>
+                    <table class="footertable">
+                        <tr>
+                            <td><img src="img/1(46).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(49).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(50).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/1(54).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(55).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(56).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/1(59).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(61).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(57).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,192 @@
+@charset "utf-8";
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.hrgreen{
+    border:2px solid #a4da22;
+    background-color: #a4da22;
+    opacity: 0.3;
+    /* width:1175px; */
+    margin-top:30px;
+    /* margin-bottom:-30px; */
+}
+.hrblack{
+    border:2px solid black;
+    background-color: black;
+    opacity: 0.3;
+    width:1170px;
+    margin-top:30px;
+}
+
+#cart1{
+    width:1175px;
+    height:100px;
+    /* background-color: antiquewhite; */
+    margin-bottom: 30px;
+    margin-top:10px;
+}
+.cart1T{
+    font-family: Pacifico;
+    font-size:40px;
+}
+.cart1div1{
+    float: left;
+}
+.cart1div2{
+    float: right;
+    margin-top: -70px;
+    color:#666;
+}
+
+#cart2{
+    width:1175px;
+    height:440px;
+    /* background-color: lightblue; */
+    margin-bottom: 60px;
+}
+.productcheck{
+    float: left;
+    margin: 40px 25px 0 10px;
+    width:20px;
+    height:20px;
+}
+input[type="checkbox"]:checked{
+    background-color: #a4da22;
+}
+th img{
+    width:100px;
+    float: left;
+}
+th img:hover{
+    opacity: 0.6;
+}
+.cart2p{
+    float: left;
+    margin:40px 0 0 40px;
+}
+.cart2table{
+    /* border-collapse: separate; */
+    border-spacing: 1px;
+    text-align:center;
+    /* border:1px solid darkgray; */
+    padding:10px;
+    margin:15px 0 0 0px;
+}
+.cart2table th:first-child{
+    width:480px;
+    text-align: left;
+    padding:5px;
+}
+.cart2table th:nth-child(3){
+    width:130px;
+}
+.cart2table th:nth-child(2), th:nth-child(5), th:nth-child(4){
+    width:180px;
+}
+.cart2table th, .cart2table td{
+    border-bottom:1px solid lightgray;
+}
+
+input[value="Delete"], [value="Like"]{
+    padding:5px;
+    background-color: white;
+    border:1px solid lightgray;
+    display: block;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width:50px;
+}
+input[value="Order"]{
+    padding:5px;
+    background-color: #a4da22;
+    border:1px solid #a4da22;
+    display: block;
+    margin-top:5px;
+    margin-bottom: 5px;
+    color:white;
+    width:50px;
+}
+input[value="Delete"]:hover, [value="Like"]:hover{
+    background-color: #777;
+    color:white;
+    border:1px solid #777;
+}
+input[value="Order"]:hover{
+    background-color: white;
+    color:#a4da22;
+    border:1px solid #a4da22;
+}
+
+#cart3{
+    width:1175px;
+    height:150px;
+    /* background-color: lightblue; */
+    margin-bottom: 30px;
+    border:1px solid #777;
+}
+#cart3>div{
+    width:250px;
+    height: 100px;
+    background-color: antiquewhite;
+    float: left;
+    margin:25px 30px 0 20px;
+}
+#cart3>div:nth-child(1){
+    margin-left: 160px;
+    background-color: #e9e9e9;
+}
+#cart3>div:nth-child(2){
+    background-color: #e9e9e9;
+}
+#cart3>div:last-child{
+    background-color: #a4da22;
+    font-weight: bold;
+}
+
+#cart4{
+    width:1175px;
+    height:200px;
+    /* background-color: lightblue; */
+    margin-bottom: 30px;
+}
+.carttable{
+    width:1175px;
+    font-size: 12px;
+    color:#666;
+    margin-top:20px;
+    text-align: left;
+}
+.carttable tr, td, td{
+    padding:5px;
+}
+
+#cart5{
+    width:1175px;
+    height:100px;
+    /* background-color: lightblue; */
+    margin-bottom: 150px;
+}
+.cart5button{
+    margin-left: 65px;
+}
+.cart5button>input{
+    padding:20px;
+    margin:20px 5px 0px 40px;
+    font-size: 16px;
+    border:1px solid #e9e9e9;
+    background-color: #e9e9e9;
+}
+.cart5button>input[value="Order selected products"]{
+    background-color: #a4da22;
+    border:1px solid #a4da22;
+    color:white;
+}
+.cart5button>input:hover{
+    background-color: #777;
+    color:white;
+    border:1px solid #777;
+}
+.cart5button>input[value="Order selected products"]:hover{
+    background-color: white;
+    color:#a4da22;
+    border:1px solid #a4da22;
+}

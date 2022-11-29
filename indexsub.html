@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotterSub</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="sub.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#detail").click(function(){
+                $("#sub2div1").show();
+                $("#sub2div2").hide();
+                $("#sub2div3").hide();
+                $("#sub2div4").hide();
+            });
+            $("#delivery").click(function(){
+                $("#sub2div1").hide();
+                $("#sub2div2").show();
+                $("#sub2div3").hide();
+                $("#sub2div4").hide();
+            });
+            $("#review").click(function(){
+                $("#sub2div1").hide();
+                $("#sub2div2").hide();
+                $("#sub2div3").show();
+                $("#sub2div4").hide();
+            });
+            $("#qna").click(function(){
+                $("#sub2div1").hide();
+                $("#sub2div2").hide();
+                $("#sub2div3").hide();
+                $("#sub2div4").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <a href="indexsub.html" id="Btn">Top</a>
+    <header>
+        <div id="inputID">
+            <input type="text" placeholder="ID">
+            <input type="password" placeholder="password">
+            <input type="button" value="Log in">
+        </div>
+        <div id="logo">
+            <a href="index.html" target="_blank"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+        </nav>
+        <input type="text" placeholder="search">
+        <div class="headericon">
+            <a href=""><img src="img/1(11).png" alt="heart"></a>
+            <a href="cart.html" target="_blank"><img src="img/1(12).png" alt="cart"></a>
+        </div>
+        <div>
+            <ul class="menu">
+                <li>
+                  <a href="#">MENU</a>
+                  <ul class="submenu">
+                    <li><a href="indexsub.html" target="_blank">NEW</a></li>
+                    <li><a href="indexsub.html" target="_blank">INDOOR</a></li>
+                    <li><a href="indexsub.html" target="_blank">OUTDOOR</a></li>
+                    <li><a href="indexsub.html" target="_blank">POTS</a></li>
+                    <li><a href="indexsub.html" target="_blank">ECT</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    </header>
+
+    <section id="sub1">
+        <div><img src="img/1(26).jpg" alt="green">
+        </div>
+        <div class="sub1goodsT">
+            <p class="bigTBlS">Lemon Lime Gecko</p>
+            <sup>레몬 라임 게코</sup>
+            <p class="bigTBlS">$14.00</p>
+            <p>It is a colocasia with a refreshing summer feel. If you look closely at the leaves, it is an attractive plant with a lime-colored mountain pattern.</p><br>
+            <p>싱그러운 여름 느낌이 물씬 나는 콜로카시아로, 잎 자세히 라임 색의 산반무늬가 매력적인 식물입니다.</p>
+            <div class="select">
+                <div>
+                    <span class="subT">Pot's color</span><br>
+                    <select name="pots_color" id="pots">
+                        <optgroup label="color"> 
+                            <option value="Wh">White</option>
+                            <option value="Bl">Black</option>
+                            <option value="Ye" >Yellow</option>
+                            <option value="Pi">Pink</option>
+                            <option value="Brown" selected>Brown</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <span class="subT">Pot's size</span><br>
+                    <select name="pots_size">
+                        <optgroup label="size"> 
+                            <option value="very big">XL</option>
+                            <option value="big">L</option>
+                            <option value="midium" selected>M</option>
+                            <option value="small">S</option>
+                            <option value="very small">XS</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div id="button">
+                <input type="button" value="CART" class="buttonGray">
+                <input type="button" value="BUY" class="buttonGreen">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sub2">
+      <div class="sub2select">
+        <ul>
+            <li id="detail">Detail</li>
+            <li id="delivery">Delivery</li>
+            <li id="review">Review</li>
+            <li id="qna">Q&A</li>
+        </ul>
+      </div>
+
+      <div id="sub2div1">
+            <img src="web/14.jpg" alt="green">
+            <details title="상세 정보 확인하기">
+                <summary>Products Details</summary>
+                <div>
+                    <img src="web/SUB2.jpg" alt="green">
+                </div>
+            </details>
+      </div>
+
+      <div id="sub2div2">
+        <h2>Delivery</h2>
+        <div>
+            <ul>
+                <li>배송료 : 50,000원 이상 구매 시 무료배송, 그 이하는 각 박스당 3,000원의 배송비를 부담하셔야 합니다.<br>
+                    (도서, 산간, 오지, 제주도, 일부지역, 설치 배송 상품 등은 배송비가 추가될 수 있습니다.)
+                    </li>
+                <li>
+                    부피가 큰 상품은 2박스 이상으로 따로 출고되는 경우가 있으며, 변심으로 인한 반품시 2박스 이상에 대한 왕복 배송비를 부담하셔야 합니다.
+                </li>
+                <li>
+                    제품에 따라 출고지가 다른 제품의 경우, 변심반품시 왕복배송비가 개별부과될 수 있습니다.
+                </li>
+                <li>
+                    배송시간 : 입금확인 후 평균 2~3일 이내에 받아보실 수 있습니다. (주말, 공휴일, 천재지변 제외)
+                </li>
+                <li>
+                    상품을 여러가지 구매하셨을 경우 여러 박스로 부분 포장되어 발송될 수 있으며, 배송 도착 날짜와 시간이 다를 수도 있습니다.
+                </li>
+                <li>
+                    오후 2시 이후 주문 후 취소나 배송지/옵션 변경 시 고객센터로 연락 주시면 신속히 변경 처리해드립니다.
+                </li>
+                <li>
+                    아래와 같은 경우 입금확인이 어려워 배송이 지연될 수 있습니다. (고객센터로 연락요망)<br>
+
+                    주문자와 입금자가 달라 확인이 되지 않는 경우 / 주문금액과 입금 금액이 다를 경우 / 주문보다 입금을 먼저 하신 경우
+                </li>
+                <li>
+                    주문 후 7일 이내에 입금하지 않으면 주문이 자동 취소됩니다.
+                </li>
+            </ul>
+      </div>
+      </div>
+      <div id="sub2div3">
+        <h2 class="h2">Review</h2>
+        <button class="blackbutton">리뷰 작성하기</button>
+            <table class="toptable">
+                <tr>
+                    <th>5</th>
+                    <td><a href="#">안전하게 도착했어요.</a></td>
+                    <td>이지은</td>
+                    <td>2022.11.15</td>
+                    <td>답변 대기중</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td><a href="#">거실의 분위기가 밝아졌어요.</a></td>
+                    <td>김근영</td>
+                    <td>2022.11.10</td>
+                     <td>답변완료</td>
+                </tr>
+                <tr>                        
+                    <th>3</th>
+                    <td><a href="#">마음에 들어요.</a></td>
+                    <td>김원준</td>
+                    <td>2022.11.02</td>
+                      <td>답변완료</td>
+                </tr>
+               <tr>
+                    <th>2</th>
+                    <td><a href="#">너무 예뻐요.</a></td>
+                    <td>옥송이</td>
+                    <td>2022.10.23</td>                        <td>답변완료</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td><a href="#">잘 크고 있어요.</a></td>                        <td>이자하</td>
+                    <td>2022.10.17</td>
+                    <td>답변완료</td>
+                </tr>
+            </table>
+      </div>
+
+      <div id="sub2div4">
+        <button class="blackbutton">문의 작성하기</button>
+        <h2 class="h2">Q&A</h2>
+        <table class="toptable">
+            <tr>
+                <th>5</th>
+                <td><a href="#">배송문의 합니다.</a></td>
+                <td>이지은</td>
+                <td>2022.11.15</td>
+                <td>답변 대기중</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td><a href="#">상품문의.</a></td>
+                <td>김근영</td>
+                <td>2022.11.10</td>
+                <td>답변완료</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td><a href="#">재고문의.</a></td>
+                <td>김원준</td>
+                <td>2022.11.02</td>
+                <td>답변완료</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td><a href="#">색상문의.</a></td>
+                <td>옥송이</td>
+                <td>2022.10.23</td>
+                <td>답변완료</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td><a href="#">배송지 변경.</a></td>
+                <td>이자하</td>
+                <td>2022.10.17</td>
+                <td>답변완료</td>
+            </tr>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footerbox1">
+                <span class="subT">
+                    Contact Info
+                </span>
+                <br><br><br>
+                <p>
+                    <b>Adress</b><br>
+                    Korea, Siheung-si, Jeong-wang-dong<br>
+                </p>
+                <br><br>
+                <p>
+                    <b>Contact-Us</b><br>
+                    010-1234-5678<br>
+                    010-5678-1234
+                </p>
+                <br><br>
+                <p>
+                    <b>Email-us</b><br>
+                    1234kkk@gmail.com
+                </p>
+            </div>
+            <div class="footerbox2">
+                <img src="img/logo.png" alt="logo">
+                <br><br>
+                <p>
+                    We works Everyday<br><br><br>
+
+                    <b>Mon - Fir</b><br>
+                    9AM - 6PM<br><br>
+                    <b>Sat</b><br>
+                    9AM - 5PM<br><br>
+                    <b>Sun</b><br>
+                    9AM - 4PM<br>
+                </p>
+            </div>
+            <div class="footerbox3">
+                <p>
+                    <span class="subT">
+                        Instagram
+                    </span>
+                    <br>
+                    <table class="footertable">
+                        <tr>
+                            <td><img src="img/1(46).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(49).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(50).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/1(54).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(55).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(56).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/1(59).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(61).jpg" alt="plant" class="trimg"></td>
+                            <td><img src="img/1(57).jpg" alt="plant" class="trimg"></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
